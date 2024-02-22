@@ -21,4 +21,4 @@ The report (see `data/forecast_report.csv`) will be of the form :
 
 ## Happy Hacking :)
 
-Feel free to share your hacking results using as a sperate branch: YOUR_IDENTIFIER_deepl_cairo_hackathon_2024
+Feel free to fork and share your hacking results!
