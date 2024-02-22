@@ -31,6 +31,7 @@ class Zephyr(LLM):
             self.endpoint,
             json={
                 "prompt": prompt,
+                "cache_prompt": True,
                 "stream": False,
                 "stop": stop if stop is not None else self.stop,
                 "temperature": self.temperature,
