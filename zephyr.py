@@ -41,7 +41,10 @@ class Zephyr(LLM):
         )
         if res.status_code != 200:
             raise requests.HTTPError()
-        return res.json().get("content")
+        data = res.json()
+        if data["truncated"] == True:
+            raise RuntimeWarning("Exeeded context length.")
+        return data.get("content")
 
 
 class ZephyrChat(SimpleChatModel, Zephyr):
