@@ -1,7 +1,7 @@
 # Welcome to the llm_hackathon repo from prognostica
 Start with the installation instructions in `install.ipynb`.\
 Feel free to use the provided `Dockerfile`.\
-The API token which is to be set in the created .env file will be given during the actual hackathon session.
+The API token which is to be set in the created **.env** (has to be renamed or copied from `.env_template`) file will be given during the actual hackathon session.
 Once the installation is finished, you can start interacting with the remote open source llm using `cutom_llm_interaction.ipynb`.
 
 # The Task
